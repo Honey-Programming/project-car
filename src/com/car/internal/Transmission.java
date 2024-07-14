@@ -13,6 +13,13 @@ public class Transmission {
         System.out.println("chooseShift, chooseDriveMode");
 
         Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+
+        if (Objects.equals(input, "chooseShift")) {
+            chooseShift();
+        } else if (Objects.equals(input, "chooseDriveMode")) {
+            chooseDriveMode();
+        }
     }
 
     public void chooseShift() {

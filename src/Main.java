@@ -12,7 +12,8 @@ public class Main {
         String function = scanner.nextLine();
 
         if (Objects.equals(function, "Transmission")) {
-
+            Transmission transmission = new Transmission();
+            transmission.callFunction();
         }
     }
 }
