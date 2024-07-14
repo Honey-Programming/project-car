@@ -11,9 +11,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String function = scanner.nextLine();
 
-        if (Objects.equals(function, "Transmission")) {
-            Transmission transmission = new Transmission();
-            transmission.callFunction();
+        switch(function) {
+            case "Transmission":
+                Transmission transmission = new Transmission();
+                transmission.callFunction();
+                break;
+            case "Movement":
+                Movement movement = new Movement();
+                movement.callFunction();
         }
     }
 }
