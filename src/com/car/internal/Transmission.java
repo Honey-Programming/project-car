@@ -4,7 +4,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Transmission {
-    int gear = 1;
+    public static int gear = 1;
     public static String mode = "P";
 
     public void callFunction() {
